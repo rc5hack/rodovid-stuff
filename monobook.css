@@ -1,0 +1,45 @@
+/*<pre>
+*/
+
+span.comment {font-size: 95%;}
+
+a#itsme {visibility: hidden;}
+
+div#f-poweredbyico {visibility: hidden;}
+
+textarea {
+    resize: vertical;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    img,
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+/*</pre>
+*/
